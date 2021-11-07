@@ -3,7 +3,7 @@
 URL = https://wiki-scraper-331405.uc.r.appspot.com
 
 
-GET Wikipedia Article Full content</br>
+**GET Wikipedia Article Full content**</br>
 -end point: https://wiki-scraper-331405.uc.r.appspot.com/<title></br>
 -request example: https://wiki-scraper-331405.uc.r.appspot.com/kimchi</br>
 -response example:  </br>
@@ -14,7 +14,7 @@ GET Wikipedia Article Full content</br>
   "url":"https://en.wikipedia.org/wiki/Kimchi"</br>
 }</br>
 
-GET Wikipedia Article Summary</br>
+**GET Wikipedia Article Summary**</br>
 -end point: https://wiki-scraper-331405.uc.r.appspot.com/<title>/summary</br>
 -request example:https://wiki-scraper-331405.uc.r.appspot.com/kimchi/summary</br>
 -response example:</br>
@@ -25,8 +25,8 @@ GET Wikipedia Article Summary</br>
   "url":"https://en.wikipedia.org/wiki/Kimchi"</br>
 }</br>
 
-GET first X number of sentences of a Wikipedia Article Summary </br>
--end point: https://wiki-scraper-331405.uc.r.appspot.com/<title>/summary/<sentences> </br>
+**GET first X number of sentences of a Wikipedia Article Summary** </br>
+-end point: https://wiki-scraper-331405.uc.r.appspot.com/<title>/summary/<number_sentences> </br>
 -request example:https://wiki-scraper-331405.uc.r.appspot.com/kimchi/summary/3</br>
 -response example:</br>
 200 OK</br>
@@ -36,7 +36,7 @@ GET first X number of sentences of a Wikipedia Article Summary </br>
   "url":"https://en.wikipedia.org/wiki/Kimchi"</br>
 }</br>
   
-GET main image url of a Wikipedia Article </br>
+**GET main image url of a Wikipedia Article** </br>
 -end point: https://wiki-scraper-331405.uc.r.appspot.com/<title>/image</br>
 -request example:https://wiki-scraper-331405.uc.r.appspot.com/kimchi/image</br>
 -response example:</br>
