@@ -22,7 +22,7 @@ def article_content(title):
     result["title"] = page.title
     result["url"] = page.url
     result["content"] = page.content
-    return jsonify(result)
+    return (jsonify(result), 200)
 
 
 # path that returns the summary of the article
@@ -40,7 +40,7 @@ def article_summary(title):
     result["title"] = page.title
     result["url"] = page.url
     result["summary"] = summary
-    return jsonify(result)
+    return (jsonify(result), 200)
 
 
 # path that returns first x sentences from the summary of the article
@@ -58,7 +58,7 @@ def article_summary_sentences(title, sentences):
     result["title"] = page.title
     result["url"] = page.url
     result["summary"] = summary
-    return jsonify(result)
+    return (jsonify(result), 200)
 
 # path that returns the url of the main image of the article
 @app.route('/<title>/image')
@@ -78,7 +78,7 @@ def article_image(title):
     result = {}
     result["title"] = page.title
     result["image_url"] = img_link
-    return jsonify(result)
+    return (jsonify(result), 200)
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
