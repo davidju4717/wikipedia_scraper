@@ -26,7 +26,7 @@ GET Wikipedia Article Summary</br>
 }</br>
 
 GET first X number of sentences of a Wikipedia Article Summary </br>
--end point: https://wiki-scraper-331405.uc.r.appspot.com/<title>/summary/<sentences></br>
+-end point: https://wiki-scraper-331405.uc.r.appspot.com/<title>/summary/<sentences> </br>
 -request example:https://wiki-scraper-331405.uc.r.appspot.com/kimchi/summary/3</br>
 -response example:</br>
 200 OK</br>
