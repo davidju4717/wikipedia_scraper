@@ -77,6 +77,7 @@ def article_image(title):
 
     result = {}
     result["title"] = page.title
+    result["url"] = page.url
     result["image_url"] = img_link
     return (jsonify(result), 200)
 
