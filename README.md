@@ -25,17 +25,6 @@ URL = https://wiki-scraper-331405.uc.r.appspot.com
   "url":"https://en.wikipedia.org/wiki/Kimchi"</br>
 }</br>
 
-**GET First X Number of Sentences of a Wikipedia Article Summary** </br>
--endpoint: https://wiki-scraper-331405.uc.r.appspot.com/<title>/summary/<number_sentences> </br>
--request example:https://wiki-scraper-331405.uc.r.appspot.com/kimchi/summary/3</br>
--response example:</br>
-200 OK</br>
-{</br>
-  "summary":"Kimchi (; Korean: \uae40\uce58, romanized: gimchi, IPA: [kim.t\u0255\u02b0i]), a staple food in Korean cuisine, is a  traditional side dish of salted and fermented vegetables, such as napa cabbage and Korean radish, made with a widely varying selection of seasonings, including gochugaru (Korean chili powder), spring onions, garlic, ginger, and jeotgal (salted seafood), etc. It is also used in a variety of soups and stews. It is eaten as a side dish with almost every Korean meal.There are hundreds of varieties of kimchi made with different vegetables as the main ingredients.",</br>
-  "title":"Kimchi",</br>
-  "url":"https://en.wikipedia.org/wiki/Kimchi"</br>
-}</br>
-  
 **GET Main Image url of a Wikipedia Article** </br>
 -endpoint: https://wiki-scraper-331405.uc.r.appspot.com/<title>/image</br>
 -request example:https://wiki-scraper-331405.uc.r.appspot.com/kimchi/image</br>
